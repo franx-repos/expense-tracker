@@ -5,9 +5,18 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  // const addExpense = () => {
+  //   if (expenseInput.trim() !== "") {
+  //     console.log("Add expense");
+
+  //     setInput("");
+  //   } else {
+  //     console.log("Ixnput is empty");
+  //   }
+  // };
+
   return (
     <>
-      <input type="text" />
       <FetchPrice city_name={"Berlin"} country_name={"Germany"}></FetchPrice>
     </>
   );
