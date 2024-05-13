@@ -1,13 +1,19 @@
 import { useState } from "react";
 import "./App.css";
+
+import ExpenseForm from "./assets/components/ExpensForm";
 import ItemList from "./ItemList";
 
+
 function App() {
-  const [count, setCount] = useState(0);
+ 
 
   return (
+    
     <>
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
+    {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
+      <ExpenseForm/>
+      
       <ItemList />
     </>
   );
