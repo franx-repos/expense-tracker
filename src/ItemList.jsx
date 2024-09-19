@@ -1,7 +1,7 @@
 import { Dropdown } from "flowbite-react";
 import { Table } from "flowbite-react";
 
-function ItemList() {
+function ItemList(currency, description, price, category, budget) {
   return (
     <div>
       <Dropdown className="m-2" label="Dropdown button" dismissOnClick={false}>
